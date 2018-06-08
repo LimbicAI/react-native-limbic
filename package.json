@@ -1,0 +1,21 @@
+{
+  "name": "react-native-limbic",
+  "version": "0.0.11",
+  "private": false,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "babel-jest": "22.4.4",
+    "babel-preset-react-native": "4.0.0",
+    "jest": "22.4.4",
+    "react-test-renderer": "16.3.1",
+    "react": "16.3.1",
+    "react-native": "0.55.4"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
