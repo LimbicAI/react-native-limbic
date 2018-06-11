@@ -189,7 +189,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, copy) NSString * _Nonnull apiK
 + (NSString * _Nonnull)apiKey SWIFT_WARN_UNUSED_RESULT;
 + (void)setApiKey:(NSString * _Nonnull)value;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-- (void)getStressForCurrentUserWithStartDate:(NSDate * _Nullable)startDate endDate:(NSDate * _Nullable)endDate data:(NSDictionary<NSString *, id> * _Nullable)data completionHandler:(void (^ _Nonnull)(NSDictionary<NSDate *, NSDictionary<NSString *, NSNumber *> *> * _Nullable, NSError * _Nullable))completionHandler;
+- (void)getStressForCurrentUserWithStartDate:(NSDate * _Nonnull)startDate endDate:(NSDate * _Nullable)endDate data:(NSDictionary<NSString *, id> * _Nullable)data completionHandler:(void (^ _Nonnull)(NSDictionary<NSDate *, NSDictionary<NSString *, NSNumber *> *> * _Nullable, NSError * _Nullable))completionHandler;
 - (void)getLastDayStressForCurrentUserWithCompletionHandler:(void (^ _Nonnull)(NSDictionary<NSDate *, NSDictionary<NSString *, NSNumber *> *> * _Nullable, NSError * _Nullable))completionHandler;
 - (void)getLastWeekStressForCurrentUserWithCompletionHandler:(void (^ _Nonnull)(NSDictionary<NSDate *, NSDictionary<NSString *, NSNumber *> *> * _Nullable, NSError * _Nullable))completionHandler;
 - (void)getLastMonthStressForCurrentUserWithCompletionHandler:(void (^ _Nonnull)(NSDictionary<NSDate *, NSDictionary<NSString *, NSNumber *> *> * _Nullable, NSError * _Nullable))completionHandler;
