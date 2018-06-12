@@ -7,9 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E025C5EF20D01A5D00A844A6 /* Limbic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E025C5EE20D01A5D00A844A6 /* Limbic.framework */; };
 		E0E2C3D820C817BD002E9774 /* RNLimbic.m in Sources */ = {isa = PBXBuildFile; fileRef = E0E2C3D720C817BD002E9774 /* RNLimbic.m */; };
-		E0E2C3D920C817BD002E9774 /* RNLimbic.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E0E2C3D620C817BD002E9774 /* RNLimbic.h */; };
-		E0E2C3E020C817D9002E9774 /* Limbic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0E2C3DF20C817D9002E9774 /* Limbic.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -19,17 +18,16 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
-				E0E2C3D920C817BD002E9774 /* RNLimbic.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		E025C5EE20D01A5D00A844A6 /* Limbic.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Limbic.framework; path = ../../Desktop/Limbic/Limbic.framework; sourceTree = "<group>"; };
 		E0E2C3D320C817BD002E9774 /* libRNLimbic.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNLimbic.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0E2C3D620C817BD002E9774 /* RNLimbic.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNLimbic.h; sourceTree = "<group>"; };
 		E0E2C3D720C817BD002E9774 /* RNLimbic.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNLimbic.m; sourceTree = "<group>"; };
-		E0E2C3DF20C817D9002E9774 /* Limbic.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Limbic.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,19 +35,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E0E2C3E020C817D9002E9774 /* Limbic.framework in Frameworks */,
+				E025C5EF20D01A5D00A844A6 /* Limbic.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E025C5ED20D01A5C00A844A6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E025C5EE20D01A5D00A844A6 /* Limbic.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E0E2C3CA20C817BD002E9774 = {
 			isa = PBXGroup;
 			children = (
 				E0E2C3D520C817BD002E9774 /* RNLimbic */,
 				E0E2C3D420C817BD002E9774 /* Products */,
-				E0E2C3DF20C817D9002E9774 /* Limbic.framework */,
+				E025C5ED20D01A5C00A844A6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
